@@ -1,0 +1,113 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.parent {
+    display: grid;
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    border-radius: 1px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(54, 54, 54);
+    -webkit-box-shadow: 0px 7px 8px 0px rgba(34, 60, 80, 0.3);
+    -moz-box-shadow: 0px 7px 8px 0px rgba(34, 60, 80, 0.3);
+    box-shadow: 0px 7px 8px 0px rgba(34, 60, 80, 0.3);
+}
+
+.parent2 {
+    display: grid;
+    grid-template-rows: 1fr 1fr 13fr 2fr;
+    width: 300px;
+    height: 650px;
+    background-color: aqua;
+    border-radius: 1px;
+    border: 0;
+    -webkit-box-shadow: 0px 7px 8px 0px rgba(34, 60, 80, 0.3);
+    -moz-box-shadow: 0px 7px 8px 0px rgba(34, 60, 80, 0.3);
+    box-shadow: 0px 7px 8px 0px rgba(34, 60, 80, 0.3);
+}
+
+.parent3 {
+    display: grid;
+    width: 300px;
+    height: 300px;
+    background-color: aqua;
+    border-radius: 1px;
+}
+
+.enter {
+    font-weight: 900;
+    margin-left: 25px;
+    color: rgb(51, 51, 51);
+}
+
+.enter1 {
+    font-weight: 900;
+    color: rgb(51, 51, 51);
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+}
+
+.inp {
+    border: 0;
+    height: 30px;
+    width: 240px;
+    padding-left: 10px;
+}
+
+.btns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.button1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input {
+    display: grid;
+    margin-left: 25px;
+}
+
+.btn {
+    width: 130px;
+    height: 35px;
+    border-radius: 20px;
+    background-color:rgb(2, 192, 192);
+}
+
+.btn1 {
+    width: 220px;
+    height: 35px;
+    border-radius: 20px;
+    background-color:rgb(2, 192, 192);
+}
+
+.btn:hover {
+    scale: 1.05;
+    transition: 0.05s;
+}
+
+.btn1:hover {
+    scale: 1.05;
+    transition: 0.05s;
+}
